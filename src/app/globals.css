@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  /* overflow-x: hidden; */
+}
+
+body {
+  background-color: #EFF2FF; 
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  height: auto;
+  min-width: 100%;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
