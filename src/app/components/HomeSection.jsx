@@ -36,7 +36,7 @@ const HomeSection = () => {
                 <Image
                   src="/TranspirantGoogle.jpg"
                   alt="Google-button"
-                  width="250"
+                  width="150"
                   height="150"
                 />
               </button>
@@ -54,7 +54,7 @@ const HomeSection = () => {
           <div className="grow">
             <div className="flex justify-center sm:justify-start">
               <Image
-                src="/iphone12Pro.jpg"
+                src="/iPhone12Pro.jpg"
                 width="500"
                 height="500"
                 alt="Heroimage"
@@ -88,8 +88,8 @@ const HomeSection = () => {
             <Image
               src="/locations.jpg"
               alt="Google-button"
-              width="150"
-              height="90"
+              width="250"
+              height="150"
             />
           </div>
         </div>
@@ -100,7 +100,7 @@ const HomeSection = () => {
           <div className="grow">
             <div className="flex justify-center sm:justify-start">
               <Image
-                src="/iphone12ProMockup.jpg"
+                src="/iPhone12ProMockup.jpg"
                 alt="Heroimage"
                 className="block"
                 width="500"
