@@ -88,8 +88,8 @@ const HomeSection = () => {
             <Image
               src="/locations.jpg"
               alt="Google-button"
-              width="250"
-              height="150"
+              width="300"
+              height="200"
             />
           </div>
         </div>
@@ -182,7 +182,7 @@ const HomeSection = () => {
               </button>
               <button className="rounded">
                 <Image
-                  src="/TransappStore.jpg"
+                  src="/TransAppStore.jpg"
                   alt="AppStore-button"
                   width="150"
                   height="90"
