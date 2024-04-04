@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#EFF2FF] p-4 text-[#262C4C] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-10 pb-10 gap-4 min-w-screen">
+    <footer className="bg-[#EFF2FF] py-32 px-16 text-[#262C4C] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-10 pb-10 gap-12 min-w-screen">
       {/* Footer Logo and App Download */}
       <div className="flex flex-col items-start md:items-start">
         <Link href="/">
@@ -17,13 +17,13 @@ const Footer = () => {
           <Image
             src="/TranspirantGoogle.jpg"
             alt="google"
-            width="100"
+            width="110"
             height="40"
           />
           <Image
             src="/TransAppStore.jpg"
             alt="appstore"
-            width="100"
+            width="110"
             height="40"
           />
         </div>
@@ -48,7 +48,9 @@ const Footer = () => {
               width="20"
               height="20"
             />
-            <p>45 Highfield Avenue, Manchester, M2 3B, UK</p>
+            <p>
+              45 Highfield Avenue, <br /> Manchester, M2 3B, UK
+            </p>
           </div>
         </div>
       </div>
@@ -57,11 +59,11 @@ const Footer = () => {
       <div className="flex flex-col items-start md:items-start">
         <p className="text-sm font-semibold mb-2">Social Media</p>
         <div className="flex space-x-2">
-          <Image src="/facebook.jpg" alt="facebook" width="20" height="20" />
+          <Image src="/facebook.jpg" alt="facebook" width="30" height="20" />
 
-          <Image src="/twitter.jpg" alt="twitter" width="20" height="20" />
-          <Image src="/linkedin.jpg" alt="linkedin" width="20" height="20" />
-          <Image src="/instagram.jpg" alt="logo" width="20" height="20" />
+          <Image src="/twitter.jpg" alt="twitter" width="30" height="20" />
+          <Image src="/linkedin.jpg" alt="linkedin" width="30" height="20" />
+          <Image src="/instagram.jpg" alt="logo" width="30" height="20" />
         </div>
       </div>
 
@@ -70,7 +72,7 @@ const Footer = () => {
         <p className="text-sm font-semibold mb-2">
           Subscribe to our newsletter
         </p>
-        <form action="post" className="space-y-2 md:space-y-0 md:space-x-2">
+        <form action="post" className="space-y-2 md:space-y-6 md:space-x-2">
           <label htmlFor="email" className="text-[#262C4C] block">
             Email
           </label>
@@ -79,9 +81,9 @@ const Footer = () => {
             name="email"
             id="email"
             placeholder="samplemail@google.com"
-            className="rounded border-gray-500 py-2 px-3 md:w-64 m-2"
+            className="rounded border-gray-500 py-5 px-4 md:w-64"
           />
-          <button className="bg-[#262C4C] text-white font-bold py-2 px-3 m-2 md:w-64 rounded">
+          <button className="bg-[#262C4C] text-white font-bold py-5 px-4 md:w-64 rounded">
             Subscribe
           </button>
         </form>
