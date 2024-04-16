@@ -37,12 +37,13 @@ const LandingNavbar = () => {
             {/* LOGO */}
             <Link href="/">
               <Image
-                src="/homelogo.jpg"
+                src="/logo.png"
                 alt="admin-profile"
                 width="100"
                 height="40"
               />
             </Link>
+
             {/* HAMBURGER BUTTON FOR MOBILE */}
 
             <div className="md:hidden">
