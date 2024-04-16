@@ -15,7 +15,7 @@ export default function Home() {
           <header className="grid grid-cols-1  pb-5 lg:grid-cols-2 gap-10 items-center justify-between lg:py-6 p-4 md:p-8 lg:p-6">
             <div className="lg:order-2">
               <Image
-                src="/Heroimage.jpg"
+                src="/Heroimage.png"
                 alt="Heroimage"
                 width="400"
                 height="300"
@@ -36,7 +36,7 @@ export default function Home() {
               <div className="flex flex-wrap">
                 <button className="rounded mr-2 mb-2 lg:mb-0">
                   <Image
-                    src="/Google.jpg"
+                    src="/Google.png"
                     alt="Google-button"
                     width="150"
                     height="90"
@@ -44,7 +44,7 @@ export default function Home() {
                 </button>
                 <button className="rounded">
                   <Image
-                    src="/AppStore.jpg"
+                    src="/AppStore.png"
                     alt="AppStore-button"
                     width="150"
                     height="90"
