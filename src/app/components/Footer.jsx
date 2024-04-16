@@ -16,20 +16,20 @@ const Footer = () => {
       {/* Footer Logo and App Download */}
       <div className="flex flex-col items-start md:items-start">
         <Link href="/">
-          <Image src="/homelogo.jpg" alt="footerlogo" width="100" height="40" />
+          <Image src="/logo.png" alt="footerlogo" width="100" height="40" />
         </Link>
         <p className="text-sm my-4 text-start md:text-left">
           Download the app by clicking the links below
         </p>
         <div className="flex justify-center md:justify-start space-x-2">
           <Image
-            src="/TranspirantGoogle.jpg"
+            src="/TranspirantGoogle.png"
             alt="google"
             width="110"
             height="40"
           />
           <Image
-            src="/TransAppStore.jpg"
+            src="/TransAppStore.png"
             alt="appstore"
             width="110"
             height="40"
@@ -90,12 +90,12 @@ const Footer = () => {
       </div>
 
       {/* Newsletter Subscription */}
-      <div className="flex flex-col items-center md:items-start">
+      <div className="flex flex-col items-center min-w-[screen] md:items-start">
         <p className="text-sm font-semibold mb-2">
           Subscribe to our newsletter
         </p>
         <form action="post" className="space-y-2 md:space-y-6 md:space-x-2">
-          <label htmlFor="email" className="text-[#262C4C] block">
+          <label htmlFor="email" className="text-[#131835] block">
             Email
           </label>
           <input
@@ -103,9 +103,9 @@ const Footer = () => {
             name="email"
             id="email"
             placeholder="samplemail@google.com"
-            className="rounded border-gray-500 py-5 px-4 md:w-64"
+            className="rounded bg-[#EFF2FF] border-solid border-[#131835] py-4 p-4 md:w-64"
           />
-          <button className="bg-[#262C4C] text-white font-bold py-5 px-4 md:w-64 rounded">
+          <button className="bg-[#131835] text-white font-bold py-4 px-4 min-w-[64] md:w-64 rounded-full">
             Subscribe
           </button>
         </form>
