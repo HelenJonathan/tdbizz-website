@@ -24,7 +24,7 @@ export default function EmblaCarousel() {
         <div className="embla__container flex h-full">
           <div className="embla__slide  items-center justify-center">
             <Image
-              src="/Testimonial.jpg"
+              src="/Testimonial.png"
               width="400"
               height="300"
               alt="Testimonials"
@@ -32,7 +32,7 @@ export default function EmblaCarousel() {
           </div>
           <div className="embla__slide flex items-center justify-center">
             <Image
-              src="/Testimonial.jpg"
+              src="/Testimonial.png"
               width="400"
               height="300"
               alt="Testimonials"
@@ -40,7 +40,7 @@ export default function EmblaCarousel() {
           </div>
           <div className="embla__slide flex items-center justify-center">
             <Image
-              src="/Testimonial.jpg"
+              src="/Testimonial.png"
               width="400"
               height="300"
               alt="Testimonials"
@@ -48,7 +48,7 @@ export default function EmblaCarousel() {
           </div>
           <div className="embla__slide flex items-center justify-center">
             <Image
-              src="/Testimonial.jpg"
+              src="/Testimonial.png"
               width="400"
               height="300"
               alt="Testimonials"
