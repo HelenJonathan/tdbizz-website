@@ -17,7 +17,7 @@ const HomeSection = () => {
           Become a seller
         </p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="grow mt-4 lg:mt-0">
             <h1 className="text-lg lg:text-5xl font-bold mb-4 min-w-[12rem] text-center lg:text-left">
               Sell to thousands <br />
@@ -34,7 +34,7 @@ const HomeSection = () => {
             <div className="flex justify-center lg:justify-start">
               <button className="rounded mr-2">
                 <Image
-                  src="/TranspirantGoogle.jpg"
+                  src="/TranspirantGoogle.png"
                   alt="Google-button"
                   width="150"
                   height="90"
@@ -42,7 +42,7 @@ const HomeSection = () => {
               </button>
               <button className="rounded">
                 <Image
-                  src="/TransAppStore.jpg"
+                  src="/TransAppStore.png"
                   alt="AppStore-button"
                   width="150"
                   height="90"
@@ -68,8 +68,8 @@ const HomeSection = () => {
       <section className="grid rounded-md grid-cols-1 md:grid-cols-2 m-4 lg:m-20">
         <div className="grow flex justify-center items-center">
           <Image
-            className="object-cover rounded-lg rotate-90 mt-16 mb-20 z-0"
-            src="/PinkHair.jpg"
+            className="object-cover rounded-lg z-0"
+            src="/PinkHair.png"
             alt="Google-button"
             width="800"
             height="500"
@@ -88,19 +88,19 @@ const HomeSection = () => {
             <Image
               src="/IPhone12.png"
               alt="Google-button"
-              width="250"
-              height="50"
+              width="400"
+              height="400"
             />
           </div>
         </div>
       </section>
 
-      <section className="bg-[#fff8ec] p-4 lg:p-20 mt-16 mb-16">
-        <div className="grid rounded-md grid-cols-1 gap-6 sm:grid-cols-2">
+      <section className="bg-[#fff8ec] p-4 lg:p-20 mt-12 mb-12">
+        <div className="grid rounded-md grid-cols-1 gap-8 sm:grid-cols-2">
           <div className="grow">
             <div className="flex justify-center sm:justify-start">
               <Image
-                src="/iPhone12ProMockup.jpg"
+                src="/iPhone12ProMockup.png"
                 alt="Heroimage"
                 width="500"
                 height="500"
@@ -140,17 +140,17 @@ const HomeSection = () => {
               src="/Notification.png"
               alt="Google-button"
               className="block"
-              width="500"
-              height="500"
+              width="400"
+              height="300"
             />
           </div>
         </div>
         <div className="grow">
           <div className="flex justify-center items-center">
             <Image
-              src="/Redbag.jpg"
-              width="500"
-              height="500"
+              src="/Redbag.png"
+              width="600"
+              height="800"
               alt="Google-button"
               className="block"
             />
@@ -174,7 +174,7 @@ const HomeSection = () => {
             <div className="flex justify-center lg:justify-start">
               <button className="rounded mr-2">
                 <Image
-                  src="/TranspirantGoogle.jpg"
+                  src="/TranspirantGoogle.png"
                   alt="Google-button"
                   width="150"
                   height="90"
@@ -182,7 +182,7 @@ const HomeSection = () => {
               </button>
               <button className="rounded">
                 <Image
-                  src="/TransAppStore.jpg"
+                  src="/TransAppStore.png"
                   alt="AppStore-button"
                   width="150"
                   height="90"
