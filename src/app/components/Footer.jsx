@@ -1,6 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import {
+  TwitterIcon,
+  Location,
+  Email,
+  Calls,
+  LinkedIn,
+  Instagram,
+} from "./assets/icons";
 
 const Footer = () => {
   return (
@@ -34,20 +42,24 @@ const Footer = () => {
         <p className="text-sm font-semibold mb-2">Contact</p>
         <div className="flex flex-col space-y-2">
           <div className="flex items-center space-x-2">
-            <Image src="/phoneicon.jpg" alt="call" width="20" height="20" />
+            <div>
+              <Calls />
+            </div>
+
             <p>(406) 555-0120</p>
           </div>
           <div className="flex items-center space-x-2">
-            <Image src="/emailicon.png" alt="email" width="20" height="20" />
+            <div>
+              <Email />
+            </div>
+
             <p>support@tdbizz.com</p>
           </div>
           <div className="flex items-center space-x-2">
-            <Image
-              src="/locationicon.png"
-              alt="location"
-              width="20"
-              height="20"
-            />
+            <div className="mr-2">
+              <Location />
+            </div>
+
             <p>
               45 Highfield Avenue, <br /> Manchester, M2 3B, UK
             </p>
@@ -58,12 +70,22 @@ const Footer = () => {
       {/* Social Media Links */}
       <div className="flex flex-col items-start md:items-start">
         <p className="text-sm font-semibold mb-2">Social Media</p>
-        <div className="flex space-x-2">
-          <Image src="/facebook.jpg" alt="facebook" width="30" height="20" />
+        <div className="grid grid-cols-4 gap-3 mt-4">
+          <div className="relative w-2 h-4">
+            <Image src="/facebooklogo.png" alt="facebook" fill />
+          </div>
 
-          <Image src="/twitter.jpg" alt="twitter" width="30" height="20" />
-          <Image src="/linkedin.jpg" alt="linkedin" width="30" height="20" />
-          <Image src="/instagram.jpg" alt="logo" width="30" height="20" />
+          <div className="relative w-2 h-4 mr-3">
+            <TwitterIcon />
+          </div>
+
+          <div className="relative w-2 h-4 mr-3">
+            <LinkedIn />
+          </div>
+
+          <div className="relative w-2 h-4 mr-3">
+            <Instagram />
+          </div>
         </div>
       </div>
 

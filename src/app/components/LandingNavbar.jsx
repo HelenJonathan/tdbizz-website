@@ -83,7 +83,7 @@ const LandingNavbar = () => {
                 </Link>
               </li>
 
-              <button className="bg-[#ffb75e] hover:bg-[#050b2b] text-[#050b2b] hover:text-[#ffb75e] font-bold text-center sm:items-center mt-4 p-4 sm:px-4 rounded">
+              <button className="bg-[#ffb75e] hover:bg-[#050b2b] text-[#050b2b] hover:text-[#ffb75e] font-bold text-center sm:items-center p-3 sm:px-4 rounded-full">
                 Download
               </button>
             </ul>

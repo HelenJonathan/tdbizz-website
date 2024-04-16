@@ -6,7 +6,7 @@ const HomeSection = () => {
     <div className="bg-white w-screen h-auto py-4 lg:py-6 flex flex-wrap items-center justify-center">
       <div className="flex-shrink-0 p-4 md:p-8 lg:p-20 md:block">
         <h1 className="text-xl lg:text-5xl font-bold text-center lg:text-left">
-          A true <span className="text-[#ffb75e]">commercial</span> centre for{" "}
+          A true <span className="text-[#ffb75e]">commercial</span> centre for
           <br />
           anything and <span className="text-blue-500">everything</span>
         </h1>
@@ -37,7 +37,7 @@ const HomeSection = () => {
                   src="/TranspirantGoogle.jpg"
                   alt="Google-button"
                   width="150"
-                  height="150"
+                  height="90"
                 />
               </button>
               <button className="rounded">
@@ -54,7 +54,7 @@ const HomeSection = () => {
           <div className="grow">
             <div className="flex justify-center sm:justify-start">
               <Image
-                src="/iPhone12Pro.jpg"
+                src="/image1.png"
                 width="500"
                 height="500"
                 alt="Heroimage"
@@ -71,7 +71,7 @@ const HomeSection = () => {
             className="object-cover rounded-lg rotate-90 mt-16 mb-20 z-0"
             src="/PinkHair.jpg"
             alt="Google-button"
-            width="500"
+            width="800"
             height="500"
           />
         </div>
@@ -86,10 +86,10 @@ const HomeSection = () => {
 
           <div className="flex justify-center lg:justify-start">
             <Image
-              src="/locations.jpg"
+              src="/IPhone12.png"
               alt="Google-button"
-              width="300"
-              height="200"
+              width="250"
+              height="50"
             />
           </div>
         </div>
@@ -102,9 +102,9 @@ const HomeSection = () => {
               <Image
                 src="/iPhone12ProMockup.jpg"
                 alt="Heroimage"
-                className="block"
                 width="500"
                 height="500"
+                className="object-cover w-full h-full rounded-lg"
               />
             </div>
           </div>
